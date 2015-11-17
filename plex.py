@@ -1,4 +1,4 @@
-#python program that will scan an musicxml file, and at first, output the notes it finds :)
+#file that tokenizes the measures inside the musicxml file
 
 import xml.etree.ElementTree as ET
 
@@ -17,21 +17,37 @@ def pplex():
     except IOError:
         print("Can't open that file, bucko.")
 
+    #array whose elements are measures
+    song = []
+
+
+
+
     #use this root to iterate through all of the children in the xml file
     root = tree.getroot()
 
-    #giving a measure number for syntax
-    measurenum = 0
+    #for every measure in the song
     for measure in root.iter('measure'):
-        measurenum += 1
-        print("Measure " + str(measurenum) + " ")
-        for note in root.iter('note'):
+        
+        #and for every note in the measure
+        for note in measure.iter('note'):
+            
+            #get the pitch of the note (could also be a rest)
             pitch = note.find('pitch')
-            step = pitch.find('step')
-            if(step != 'NoneType'):
-                steptext = step.text
-                print(steptext)
-        print("|\n")
-
+            
+            #try to find a note name (will return "NoneType" if a rest)
+            try:
+                step = pitch.find('step')
+                if(step != 'NoneType'):
+                    try:
+                        accidental = note.find('accidental')
+                        print(get(accidental))
+                    except:
+                        steptext = step.text
+                    print(steptext, end="")
+            #if it's just a rest, skip back to the top of the note loop
+            except:
+                continue           
+        print("|")
 
 main()
