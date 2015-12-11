@@ -8,7 +8,7 @@
     <encoding>
       <software>Finale NotePad 2012 for Mac</software>
       <software>Dolet Light for Finale NotePad 2012</software>
-      <encoding-date>2015-11-18</encoding-date>
+      <encoding-date>2015-11-26</encoding-date>
       <supports attribute="new-system" element="print" type="yes" value="yes"/>
       <supports attribute="new-page" element="print" type="yes" value="yes"/>
     </encoding>
@@ -101,7 +101,7 @@
   </part-list>
   <!--=========================================================-->
   <part id="P1">
-    <measure number="1" width="405">
+    <measure number="1" width="411">
       <print page-number="1">
         <system-layout>
           <system-margins>
@@ -146,7 +146,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
-      <note default-x="191">
+      <note default-x="192">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -160,7 +160,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="221">
+      <note default-x="223">
         <pitch>
           <step>E</step>
           <octave>5</octave>
@@ -173,7 +173,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="252">
+      <note default-x="254">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -187,7 +187,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-      <note default-x="283">
+      <note default-x="285">
         <pitch>
           <step>E</step>
           <octave>5</octave>
@@ -200,7 +200,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
-      <note default-x="313">
+      <note default-x="317">
         <pitch>
           <step>B</step>
           <octave>4</octave>
@@ -213,7 +213,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="343">
+      <note default-x="348">
         <pitch>
           <step>D</step>
           <octave>5</octave>
@@ -226,7 +226,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="374">
+      <note default-x="379">
         <pitch>
           <step>C</step>
           <octave>5</octave>
@@ -249,7 +249,7 @@
       </note>
     </measure>
     <!--=======================================================-->
-    <measure number="2" width="184">
+    <measure number="2" width="188">
       <note default-x="16">
         <pitch>
           <step>C</step>
@@ -274,7 +274,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="67">
+      <note default-x="68">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -286,7 +286,7 @@
         <staff>1</staff>
         <beam number="1">continue</beam>
       </note>
-      <note default-x="92">
+      <note default-x="94">
         <pitch>
           <step>C</step>
           <octave>4</octave>
@@ -298,7 +298,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-      <note default-x="115">
+      <note default-x="118">
         <rest/>
         <duration>4</duration>
         <voice>1</voice>
@@ -316,8 +316,8 @@
       </note>
     </measure>
     <!--=======================================================-->
-    <measure number="3" width="173">
-      <note default-x="14">
+    <measure number="3" width="177">
+      <note default-x="13">
         <pitch>
           <step>G</step>
           <alter>-1</alter>
@@ -330,7 +330,7 @@
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
-      <note default-x="37">
+      <note default-x="38">
         <pitch>
           <step>A</step>
           <alter>-1</alter>
@@ -343,7 +343,7 @@
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-      <note default-x="61">
+      <note default-x="62">
         <pitch>
           <step>B</step>
           <alter>-1</alter>
@@ -355,14 +355,14 @@
         <stem default-y="-55">down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="85">
+      <note default-x="87">
         <rest/>
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
         <staff>1</staff>
       </note>
-      <note default-x="108">
+      <note default-x="110">
         <rest/>
         <duration>4</duration>
         <voice>1</voice>
@@ -380,8 +380,8 @@
       </note>
     </measure>
     <!--=======================================================-->
-    <measure number="4" width="186">
-      <note default-x="13">
+    <measure number="4" width="173">
+      <note default-x="14">
         <pitch>
           <step>G</step>
           <alter>-1</alter>
@@ -393,7 +393,7 @@
         <stem default-y="5.5">up</stem>
         <staff>1</staff>
       </note>
-      <note default-x="54">
+      <note default-x="53">
         <pitch>
           <step>C</step>
           <octave>5</octave>
@@ -404,7 +404,7 @@
         <stem default-y="-50">down</stem>
         <staff>1</staff>
       </note>
-      <note default-x="94">
+      <note default-x="93">
         <pitch>
           <step>E</step>
           <alter>-1</alter>
@@ -416,21 +416,20 @@
         <stem default-y="-4">up</stem>
         <staff>1</staff>
       </note>
-      <note default-x="134">
+      <note default-x="133">
         <pitch>
           <step>A</step>
-          <alter>1</alter>
+          <alter>-1</alter>
           <octave>4</octave>
         </pitch>
-        <duration>1</duration>
+        <duration>2</duration>
         <voice>1</voice>
-        <type>eighth</type>
-        <accidental>sharp</accidental>
+        <type>quarter</type>
         <stem default-y="10">up</stem>
         <staff>1</staff>
       </note>
       <backup>
-        <duration>7</duration>
+        <duration>8</duration>
       </backup>
       <note>
         <rest measure="yes"/>

@@ -29,6 +29,15 @@ something along the lines of:
       E = 20
       F = 40
       G = 100
+      a = -1
+      b = -2
+      c = -4
+      d = -10
+      e = -20
+      f = -40
+      g = -100
+      ALL COMMANDS MUST END UP EQUALING 0!
+      
       Then just use octal ascii codes to input chars:
         Hello World! -> |110 145 154 154 157| 040 | 127 157 162 154 144 | 041 |
         -> | GD GFCA GFDC GFDC GFDCBA | F | GECBA GFDCBA GFEB GFDC GFC | FA
