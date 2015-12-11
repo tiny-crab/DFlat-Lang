@@ -8,13 +8,13 @@ def main():
 
     #should put a line in here to get the xml file from the shell
     try:
-        pplex()
+        pplex('Testing/HelloWorld.xml')
     except IOError:
         print("Can't open that file, bucko.")
 
-def pplex():
+def pplex(filename):
     #creating a tree for the xml file
-    tree = ET.parse('Testing/HelloWorld.xml')
+    tree = ET.parse(filename)
         
     #list whose elements are measures
     song = list()
@@ -53,4 +53,5 @@ def pplex():
         song.append(notesInMeasure)
 
     print(song)
+    return song
 main()
