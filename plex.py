@@ -2,16 +2,6 @@
 
 import xml.etree.ElementTree as ET
 
-#need to clean this up, but needs to call other functions to lex
-#and then parse the xml files
-def main():
-
-    #should put a line in here to get the xml file from the shell
-    try:
-        pplex('Testing/HelloWorld.xml')
-    except IOError:
-        print("Can't open that file, bucko.")
-
 def pplex(filename):
     #creating a tree for the xml file
     tree = ET.parse(filename)
@@ -54,4 +44,3 @@ def pplex(filename):
 
     print(song)
     return song
-main()
